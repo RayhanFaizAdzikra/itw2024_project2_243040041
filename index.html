@@ -1,61 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tugas Besar Company</title>
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-secondary">
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top"
+    >
       <div class="container">
-        <a class="navbar-brand" href="#">
-          <img
-            src="img/Logo.png"
-            alt="Logo"
-            width="50"
-            height="50"
-            class="d-inline-block"
-          />
-          <strong>Rayhan</strong> Store
-        </a>
+        <a class="navbar-brand" href="#">Rayhan Store</a>
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
+        <div class="collapse navbar-collapse text-right" id="navbarText">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#layanan">Layanan</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#barang">Barang</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Brand</a>
+              <a class="nav-link" href="#1">1</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+    <div class="container-fluid banner">
+      <div class="container text-center">
+        <h4 class="display-6">Selamat Datang di Web Kami</h4>
+        <h3 class="display-1">Hai! Hallo</h3>
+        <a href="#layanan">
+          <button type="button" class="btn btn-danger btn-lg">
+            Cek Barang
+          </button>
+        </a>
+      </div>
+    </div>
+    <div class="container-fluid pt-5 pb-5 bg-light">
+      <div class="container text-center">
+        <h2 class="display-3" id="barang">Barang</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
+          voluptatum reprehenderit tenetur illum nobis quam, ab officiis
+          distinctio at quisquam sint vel? Quo excepturi harum magni vel
+          nesciunt omnis nemo!
+        </p>
+        <div class="row pt-4 gx-4 gy-4">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/img1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Sepatu lari</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
   </body>
