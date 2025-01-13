@@ -45,6 +45,10 @@
     .text-center {
       padding: 10px 0;
     }
+
+    .maps iframe {
+        height: 100px;
+      }
   }
   
   /* Tablets (Portrait and Landscape) */
@@ -72,5 +76,5 @@
   
     .maps iframe {
       height: 450px;
-    }
+  }
   }
